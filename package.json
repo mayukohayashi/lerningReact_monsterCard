@@ -2,7 +2,7 @@
   "name": "monster-card",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://mayukohayashi.github.io/lerningReact_monsterCard",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "npm run -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
