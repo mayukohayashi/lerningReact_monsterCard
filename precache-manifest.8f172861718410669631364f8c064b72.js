@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a14ef3eff9b07bda6e126ad50ec80e5",
+    "revision": "519291542cbac02b445e6287b136fa4c",
     "url": "/lerningReact_monsterCard/index.html"
   },
   {
-    "revision": "5bc3e67f6377333c4697",
-    "url": "/lerningReact_monsterCard/static/css/main.f2fc164d.chunk.css"
+    "revision": "dcb7e2cdf34d90ef2437",
+    "url": "/lerningReact_monsterCard/static/css/main.2c031856.chunk.css"
   },
   {
     "revision": "f773e489f6fefb0efc0c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lerningReact_monsterCard/static/js/2.36aaefe9.chunk.js.LICENSE"
   },
   {
-    "revision": "5bc3e67f6377333c4697",
+    "revision": "dcb7e2cdf34d90ef2437",
     "url": "/lerningReact_monsterCard/static/js/main.44a0cb1c.chunk.js"
   },
   {

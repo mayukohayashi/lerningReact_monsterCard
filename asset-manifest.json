@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lerningReact_monsterCard/static/css/main.f2fc164d.chunk.css",
+    "main.css": "/lerningReact_monsterCard/static/css/main.2c031856.chunk.css",
     "main.js": "/lerningReact_monsterCard/static/js/main.44a0cb1c.chunk.js",
     "main.js.map": "/lerningReact_monsterCard/static/js/main.44a0cb1c.chunk.js.map",
     "runtime-main.js": "/lerningReact_monsterCard/static/js/runtime-main.3bd14e61.js",
@@ -8,15 +8,15 @@
     "static/js/2.36aaefe9.chunk.js": "/lerningReact_monsterCard/static/js/2.36aaefe9.chunk.js",
     "static/js/2.36aaefe9.chunk.js.map": "/lerningReact_monsterCard/static/js/2.36aaefe9.chunk.js.map",
     "index.html": "/lerningReact_monsterCard/index.html",
-    "precache-manifest.a9ce563aa9f2220f119ad96b54c33c11.js": "/lerningReact_monsterCard/precache-manifest.a9ce563aa9f2220f119ad96b54c33c11.js",
+    "precache-manifest.8f172861718410669631364f8c064b72.js": "/lerningReact_monsterCard/precache-manifest.8f172861718410669631364f8c064b72.js",
     "service-worker.js": "/lerningReact_monsterCard/service-worker.js",
-    "static/css/main.f2fc164d.chunk.css.map": "/lerningReact_monsterCard/static/css/main.f2fc164d.chunk.css.map",
+    "static/css/main.2c031856.chunk.css.map": "/lerningReact_monsterCard/static/css/main.2c031856.chunk.css.map",
     "static/js/2.36aaefe9.chunk.js.LICENSE": "/lerningReact_monsterCard/static/js/2.36aaefe9.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.3bd14e61.js",
     "static/js/2.36aaefe9.chunk.js",
-    "static/css/main.f2fc164d.chunk.css",
+    "static/css/main.2c031856.chunk.css",
     "static/js/main.44a0cb1c.chunk.js"
   ]
 }
