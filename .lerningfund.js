@@ -143,3 +143,40 @@ myNewArray
 (3) [{…}, {…}, {…}]0: {id: 1}1: {id: 2}2: {id: 3}length: 3__proto__: Array(0)
 myNewArray.includes(o1)
 true
+
+
+
+//Async and Await
+fetch('http://jsonplaceholder.typicode.com/users')
+  .then(response => response.json())
+  .then(users => {
+    const firstUser = user[0];
+    console.log(firstUser);
+    return fetch(
+      'http://jsonplaceholder.typicode.com/posts?userId' + firstUser.id
+    );
+  })
+  .then(response => response.json())
+  .then(posts => console.log(posts))
+  .catch(error => console.log(error));
+
+
+
+  const myAsyncFunction = async() => {
+    try {
+
+      const userResponse = await fetch('http://jsonplaceholder.typicode.com/users')
+      const users = await userResponse.json();
+      const secondUser = user[1];
+      console.log(secondUser);
+      const postsResponse = await fetch(
+        'http://jsonplaceholder.typicode.com/posts?userId' + secondUser.id
+      );
+
+      const posts = await postsResponse.json();
+      console.log(posts);
+
+    } catch(err) {
+      console.log()
+    }
+}
