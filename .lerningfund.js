@@ -177,6 +177,6 @@ fetch('http://jsonplaceholder.typicode.com/users')
       console.log(posts);
 
     } catch(err) {
-      console.log()
+      console.log('there is an error')
     }
 }
