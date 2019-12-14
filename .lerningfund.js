@@ -250,3 +250,20 @@ undefined
 peopleArray.find(person => person.id === 4) {
   id: 4
 }
+
+
+// reduce()
+const myArray = [1,2,3,4,5,6,7]
+undefined
+
+myArray
+(7) [1, 2, 3, 4, 5, 6, 7]
+
+myArray.reduce((accumulator, currentElement) => accumulator + currentElement, 0)
+28
+
+myArray.reduce((accumulator, currentElement) => accumulator + currentElement)
+28
+
+myArray.reduce((accumulator, currentElement) => accumulator + currentElement, 10)
+38
