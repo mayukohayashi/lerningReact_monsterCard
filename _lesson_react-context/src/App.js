@@ -12,7 +12,7 @@ import Header from './components/header/header.component';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
-import CurrentUserContext from './contexts/current-user/current-user.context'
+import CurrentUserContext from './contexts/current-user/current-user.context';
 
 class App extends React.Component {
   constructor() {
@@ -20,7 +20,7 @@ class App extends React.Component {
 
     this.state = {
       currentUser: null
-    }
+    };
   }
 
   unsubscribeFromAuth = null;
@@ -31,15 +31,16 @@ class App extends React.Component {
         const userRef = await createUserProfileDocument(userAuth);
 
         userRef.onSnapshot(snapShot => {
-          this.setState({currentUser: {
-            id: snapShot.id,
-            ...snapShot.data()
-          }
+          this.setState({
+            currentUser: {
+              id: snapShot.id,
+              ...snapShot.data()
+            }
           });
         });
       }
 
-      this.setState({currentUser: userAuth});
+      this.setState({ currentUser: userAuth });
     });
   }
 
@@ -50,10 +51,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-
-      <CurrentUserContext.Provider value={this.state.currentUser}>
-        <Header />
-      </CurrentUserContext.Provider>
+        <CurrentUserContext.Provider value={this.state.currentUser}>
+          <Header />
+        </CurrentUserContext.Provider>
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
